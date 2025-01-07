@@ -9,6 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  mobile_number: ^3.0.0
+  permission_handler: ^11.3.1
+  responsive_grid_list: ^1.4.0
+  sim_card_info: ^1.0.2
+  universal_io: ^2.2.2
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +22,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/
+
