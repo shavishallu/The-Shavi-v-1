@@ -38,7 +38,6 @@ class MyAppState extends State<MyApp> {
   }
   @override
   Widget build(BuildContext context) {
-<<<<<<< HEAD
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'The Shavi',
@@ -46,12 +45,6 @@ class MyAppState extends State<MyApp> {
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.green,
           brightness: Brightness.light,
-=======
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello Vijay'),
->>>>>>> 1cd2f9205041ff1e39513fdd7124ea40480b238f
         ),
         appBarTheme: const AppBarTheme(
             backgroundColor: Colors.green,
